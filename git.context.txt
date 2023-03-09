@@ -1,0 +1,49 @@
+git 명령어
+
+
+
+
+
+
+
+git 유저 설정 ( git 프로그램 설치하고 나서 한번만)
+
+git config --global user.name "woodosa"
+git config --global user.email "woodosa@mail"
+
+
+
+
+
+
+폴더 관리 시작 환경 만들기 (초기화)
+
+프로젝트 폴더 마다 해야함.
+
+-최초 절차
+
+
+
+
+폴더 우클릭 bash 프로그램 실행
+
+git init (관리 환경조성을 위한 것으로 최초 한번만 실행)
+
+git status 현재 git 상태 확인. 상태확인을 위해 언제든 사용 가능 명령어.
+
+git remote add origin 깃허브주소 - 로컬컴퓨터와 원격 저장소(깃허브)와의 연결고리 설정.
+
+git remote -v 현재 설정되어있는 원격저장소의 정보를 확인
+
+
+
+-상시 절차
+
+
+
+
+1.git add 변경이 이뤄진 파일들을 staging area (집중관리구역) 으로 보내는 명령어
+
+2.git commit -m " 메세지 " stage area에서 관리 받는 파일을에게 일련번호를 생성, 히스토리를 기록.
+
+3.git push origin master ( 연결된 원격저장소로 해당 파일을 전송 )
