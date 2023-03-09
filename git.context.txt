@@ -42,7 +42,7 @@ git remote -v 현재 설정되어있는 원격저장소의 정보를 확인
 
 
 
-1.git add 변경이 이뤄진 파일들을 staging area (집중관리구역) 으로 보내는 명령어
+1.git add (변경이 이뤄진 파일들을 staging area (집중관리구역) 으로 보내는 명령어) +space bar . (전체 항목 설정 명령어)
 
 2.git commit -m " 메세지 " stage area에서 관리 받는 파일을에게 일련번호를 생성, 히스토리를 기록.
 
